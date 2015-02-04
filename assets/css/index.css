@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+h1 {
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+}
+
+label {
+	text-align: center;
+}
+
+.your-url {
+	color: black;
+	font-size: 1.5em;
+}
+
+input {
+	text-align: center;
+}
+
+input[name=url] {
+	height: 50px;
+	border-radius: 5px;
+	font-size: 1.6em;
+}
+
+.new-url {
+	text-align: center;
+}
+
+.new-url p{
+	font-size: 2em;
+}
