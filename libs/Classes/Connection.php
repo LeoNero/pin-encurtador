@@ -6,10 +6,10 @@ error_reporting(E_ALL);
 
 class Connection 
 {
-	private $host = "mysql.hostinger.com.br";
-	private $user = "u330386330_root";
-	private $pass = "generator";
-	private $db = "u330386330_encur";
+	private $host = "";
+	private $user = "";
+	private $pass = "";
+	private $db = "";
 
 	public function connection() {
 		$connection = new mysqli($this->host, $this->user, $this->pass, $this->db);
